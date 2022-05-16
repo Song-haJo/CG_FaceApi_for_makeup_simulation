@@ -53,10 +53,17 @@ function drawFace() {
 
   //코 그리기 
   //noFill();
-  fill(255);
+  fill(200,150,150);  // shade
   beginShape();
   for(let i=0; i<parts.nose.length; i++){
     vertex(parts.nose[i]._x*2, parts.nose[i]._y*2);
+  }
+  endShape();
+  
+  fill(250,220,220);  // bright part
+  beginShape();
+  for(let i=0; i<parts.nose.length; i++){
+    vertex(parts.nose[i]._x*1.97, parts.nose[i]._y*1.999);
   }
   endShape();
 
