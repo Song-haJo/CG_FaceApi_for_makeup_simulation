@@ -1,4 +1,4 @@
-let img, parts, button;
+let img, parts;
 let options = {withLandmarks: true, withDescriptors: false};
 
 
