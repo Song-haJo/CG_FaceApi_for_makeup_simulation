@@ -6,5 +6,6 @@
 2. random() 적용_Final Version
 
 ### Referemces
+- https://cafe.naver.com/newgraphics
 - https://wikidocs.net/103515
 - Image(face.png) source: http://orthodental.co.kr/
